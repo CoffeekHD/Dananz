@@ -1,0 +1,204 @@
+.hero__contactUs .container {
+    text-align: center;
+}
+
+.hero__contactUs-title {
+    font-weight: 700;
+    font-size: 56px;
+    margin-top: 170px;
+    margin-bottom: 36px;
+}
+
+.hero__contactUs-subtitle {
+    font-size: 18px;
+    margin-bottom: 51px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 518px;
+}
+
+.contactUs__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 14px;
+}
+
+.field__box {
+    display: flex;
+    flex-direction: column;
+    width: 413px;
+}
+
+.field {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid #9c9c9c;
+    box-sizing: border-box;
+}
+
+.field::-webkit-input-placeholder {
+    color: #9c9c9c;
+}
+
+.input--long {
+    width: 840px;
+}
+
+.field__name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+.field__number {
+    display: flex;
+    border: 1px solid #9c9c9c;
+    height: 53px;
+}
+
+.field__number .field {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+select {
+    border: none;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.form__btn {
+    margin-top: 40px;
+    
+}
+
+.location {
+    margin-top: 100px;
+}
+
+.location__title-wrapper {
+    max-width: 600px;
+    position: relative;
+}
+
+.location__title::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    max-width: 83%;
+}
+
+.location__content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location__left {
+    display: ruby;
+}
+
+.location__subtitle {
+    font-weight: 600;
+    font-size: 36px;
+    color: #333333;
+}
+
+.location__text {
+    margin-top: 24px;
+    font-size: 18px;
+    color: #9c9c9c;
+}
+
+.contacts__list {
+    margin-top: 39px;
+}
+
+.contacts__list-item:not(:last-child) {
+    margin-bottom: 33px;
+}
+
+.contacts__list-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333333;
+}
+
+.contacts__list-link {
+    font-size: 18px;
+    color: #9c9c9c;
+}
+
+.stores__list {
+    display: flex;
+    gap: 40px 60px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.stores__list-item {
+    max-width: 334px;
+}
+
+.stores__list-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.stores__list-desc {
+    font-size: 18px;
+    color: #9c9c9c;
+}
+
+.contact-us {
+    margin-top: 100px;
+    background-color: #2C3878;
+}
+
+.contact-us .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    gap: 0 20px;
+}
+
+.contact-us__text {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    max-width: 613px;
+}
+
+.contact-us__subtext {
+    color: #D9D9D9;
+    font-size: 18px;
+    max-width: 432px;
+    margin-bottom: 20px;
+}

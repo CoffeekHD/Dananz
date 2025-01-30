@@ -1,0 +1,15 @@
+@media(max-width: 1024px) {
+    .hero__service-title {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 425px) {
+    .hero__service-title {
+        margin-top: 100px;
+    }
+
+    .hero__service-subtitle {
+        font-size: 16px;
+    }
+}

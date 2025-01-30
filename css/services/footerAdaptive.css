@@ -1,0 +1,47 @@
+@media(max-width: 1024px) {
+    .footer__text {
+        font-size: 30px;
+    }
+
+    .mail-send__text {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 740px) {
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__text {
+        max-width: 100%;
+    }
+
+    .mail-send__text {
+        justify-content: center;
+    }
+
+    .footer__form {
+        justify-content: center;
+    }
+
+    .social__list {
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 425px) {
+    .footer__text {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 365px) {
+    .mail-send__text {
+        font-size: 13px;
+    }
+}
